@@ -27,6 +27,6 @@ $("input[type='text'").keypress(function(event) {
         console.log($(this).val());
         let todoInput = $(this).val();
         $(this).val("")
-        $("ul").append("<li><span>x</span> " + todoInput + "</li>")
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todoInput + "</li>")
     }
 })
