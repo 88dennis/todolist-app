@@ -76,25 +76,3 @@ input:focus {
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1)
 }
-
-.listOfTodos {
-    background: none;
-}
-
-.done {
-    color: red;
-}
-
-.ulClass {
-    font-size: 30px;
-}
-
-.clickedToDo {
-    color: red;
-    text-decoration: line-through;
-}
-
-.completed {
-    color: gray;
-    text-decoration: line-through;
-}
